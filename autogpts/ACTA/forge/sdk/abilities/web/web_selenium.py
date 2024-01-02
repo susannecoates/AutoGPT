@@ -29,6 +29,8 @@ from selenium.webdriver.safari.options import Options as SafariOptions
 from selenium.webdriver.safari.webdriver import WebDriver as SafariDriver
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
+import sys
+sys.path.append("/usr/local/lib/python3.11/site-packages")
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager as EdgeDriverManager
